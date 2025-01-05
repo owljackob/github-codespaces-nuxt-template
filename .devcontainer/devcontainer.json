@@ -1,0 +1,14 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/typescript-node",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vue.volar"
+            ]
+        }
+    },
+    "postAttachCommand": {
+        "server": "npm run dev"
+    },
+    "postCreateCommand": "npm i"
+}
